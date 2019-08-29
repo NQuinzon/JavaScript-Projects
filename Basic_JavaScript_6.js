@@ -20,7 +20,7 @@ function myFunction() {
 }
 
 function count_Function() {
-    document.getElementById("Counting".innerHTML = Count();
+    document.getElementById("Nested_Function".innerHTML = Count();
     function Count() {
         var Starting_point = 9;
         function Plus_one() {Starting_point += 1;}
