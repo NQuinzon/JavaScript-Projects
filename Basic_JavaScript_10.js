@@ -75,7 +75,7 @@ document.getElementById("break").innerHTML = text;
 var text = "";
 var i;
 for (i = 0; i < 10; i++) {
-  if (i === 3) { continue; }
+  if (i === 3) { continue; } // the continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop
   text += "The number is " + i + "<br>";
 }
 document.getElementById("continue").innerHTML = text;
